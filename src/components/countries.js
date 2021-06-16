@@ -55,6 +55,7 @@ class countries extends Component {
 
     render() {
         const data = this.state.countriesdata;
+        // eslint-disable-next-line array-callback-return
         const mydata = data.filter(country => {
             if (this.state.filters === "") {
                 return country
