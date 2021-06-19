@@ -41,6 +41,7 @@ class Detail extends Component {
                         <p>subregion {data.subregion}</p>
                         <p>Calling code {data.callingCodes}</p>
                         <p>TimeZone {data.timezones}</p>
+                        <p>Population {data.population}</p>
                         <Link to="/countries">
                             <button  className="goback">Go back</button>
                         </Link>
