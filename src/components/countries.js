@@ -69,7 +69,7 @@ class countries extends Component {
                     <div class="coutrylistbox">
                         <div class="coutrylistimgBox">
                             <img src={country.flag}
-                                alt="coutrylist image" />
+                                alt="coutrylist_image" />
                         </div>
                         <div className="country_detail">
                             <h4>{country.name}</h4>
