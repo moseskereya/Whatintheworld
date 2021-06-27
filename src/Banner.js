@@ -1,5 +1,6 @@
 import React from 'react'
 
+
 const Banner = () => {
     return (
         <section className="banner">
@@ -7,8 +8,10 @@ const Banner = () => {
                 <h4>Explore the World</h4>
             </div>
             <div className="container_b" data-aos="zoom-out">
-                <h4>Moses and ScottCate</h4>
-                <p>Moses and ScottCate are friend for a long time now, They found each other in the most coolest part of the world (a free standing mountain in the world) Kilimanajaro Mountain in Tanzania</p>
+                <h4>Hello World!!</h4>
+                <p>This is a simple react app which shows you some cool functionality like pagenation, searching and server side rendering, routing and tons of fun. As a react app developers these skills are really important to have.</p>
+                <p>Please feel free to follow along on my github account</p>
+            
             </div>
         </section>
     )
